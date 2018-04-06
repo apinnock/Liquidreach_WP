@@ -7,7 +7,14 @@
 </head>
 <body>
 
+	<?php 
+		$url = get_template_directory_uri();
+		$url .= '/img/Liquidreach.svg';
+	?>
+
 	<header>
+		<a id="logo" href="/"><img src="<?php echo $url; ?>" alt="logo" width="132" height="49"></a>
+
 		 <div class="wrapper-takeover">    
                 <div id="takeover">
                     <div id="overlay"></div>
@@ -16,19 +23,6 @@
                         	'theme_location'  => 'liquidreach',
                         	'menu'            => 'header_nav',
                         	'container'       => '',
-                        	'container_class' => '',
-                        	'container_id'    => '',
-                        	'menu_class'      => 'menu',
-                        	'menu_id'         => '',
-                        	'echo'            => true,
-                        	'fallback_cb'     => 'wp_page_menu',
-                        	'before'          => '',
-                        	'after'           => '',
-                        	'link_before'     => '',
-                        	'link_after'      => '',
-                        	'items_wrap'      => '<ul id = "%1$s" class = "%2$s">%3$s</ul>',
-                        	'depth'           => 0,
-                        	'walker'          => '',
                         ) ); ?>
                     </nav>
 
@@ -91,4 +85,15 @@
                 <div></div>
             </div>
 	</header>
+
+	<section id="banner" aria-label="banner" class="sub-banner">
+        
+        <?php the_post_thumbnail(); ?>
+
+        <div id="banner-text">
+            <h1><?php wp_title( '' ); ?></h1>
+        </div>
+    </section>
+	
+	<main>
 

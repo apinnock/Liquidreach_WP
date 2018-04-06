@@ -11,7 +11,9 @@
 html {
   color: #222;
   font-size: 1em;
-  line-height: 1.4; }
+  line-height: 1.4; 
+  margin-top:0 !important;
+}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -109,7 +111,9 @@ textarea {
 
 body {
   color: #fff;
-  background: #fff; }
+  background: #fff; 
+   margin-top:0 !important;
+}
 
 a {
   color: #fff;

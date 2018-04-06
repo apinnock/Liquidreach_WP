@@ -1,10 +1,8 @@
+		</main>
+		
 		<div id="worktogether" class="clearfix">
             <a href="contact">WORK WITH LIQUIDREACH</a>
         </div>
-
-        <main>
-        	<?php  ?>
-        </main>
 
 		<footer>
 			
@@ -14,19 +12,6 @@
                         	'theme_location'  => 'liquidreach',
                         	'menu'            => 'footer_nav',
                         	'container'       => '',
-                        	'container_class' => '',
-                        	'container_id'    => '',
-                        	'menu_class'      => 'menu',
-                        	'menu_id'         => '',
-                        	'echo'            => true,
-                        	'fallback_cb'     => 'wp_page_menu',
-                        	'before'          => '',
-                        	'after'           => '',
-                        	'link_before'     => '',
-                        	'link_after'      => '',
-                        	'items_wrap'      => '<ul id = "%1$s" class = "%2$s">%3$s</ul>',
-                        	'depth'           => 0,
-                        	'walker'          => '',
                         ) ); ?>
 				</nav>
 			</div>
@@ -38,19 +23,6 @@
 						'theme_location'  => 'liquidreach',
 						'menu'            => 'footer_secondary',
 						'container'       => '',
-						'container_class' => '',
-						'container_id'    => '',
-						'menu_class'      => 'menu',
-						'menu_id'         => '',
-						'echo'            => true,
-						'fallback_cb'     => 'wp_page_menu',
-						'before'          => '',
-						'after'           => '',
-						'link_before'     => '',
-						'link_after'      => '',
-						'items_wrap'      => '<ul id = "%1$s" class = "%2$s">%3$s</ul>',
-						'depth'           => 0,
-						'walker'          => '',
 					) ); ?>
 				</div>
 			</div>
