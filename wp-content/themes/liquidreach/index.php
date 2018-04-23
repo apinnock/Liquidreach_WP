@@ -2,7 +2,7 @@
 
 	<?php 
 
-        // Start the loop.
+        // Start the loop. Get page content.
         while ( have_posts() ) : the_post();
         	
         	the_content();
